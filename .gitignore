@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# PyInstaller
+*.spec
+*.manifest
+
+# Virtual Environment
+venv/
+env/
+.env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# YOLO Training Outputs
+runs/
+model/train/
+model/train_result/
+model/original/
+model/data/
+model/原标文件/
+
+# Test images & temp
+temp/
+t*.png
+t*.jpg
+
+# Logs
+*.log
+x_poker.txt
+
+# Secrets - 配置文件含API密钥，不提交
+model/config.ini
+.env
+config.local.*
+
+# Push script (含个人token)
+一键推送到GitHub.bat

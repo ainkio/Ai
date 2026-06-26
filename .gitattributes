@@ -1,0 +1,6 @@
+# Git LFS - 管理 GitHub 上超过 100MB 的大文件
+# YOLO 模型文件 (.pt) 体积较大，使用 Git LFS 管理
+# 需要先安装 Git LFS: https://git-lfs.github.com/
+
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.ttf filter=lfs diff=lfs merge=lfs -text

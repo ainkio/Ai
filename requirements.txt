@@ -1,0 +1,39 @@
+# TexasAgent Python 依赖列表
+# 安装：pip install -r requirements.txt
+
+# ===== 大模型 API =====
+openai>=1.0.0
+
+# ===== 视觉模型 / 本地推理 =====
+torch>=2.0.0
+transformers>=4.40.0
+tokenizers>=0.19.0
+einops
+addict
+easydict
+
+# ===== YOLO 目标检测 =====
+ultralytics>=8.0.0
+
+# ===== OCR 识别 =====
+paddleocr>=2.6.0
+easyocr>=1.7.0
+
+# ===== 图像处理 =====
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# ===== 德州扑克牌型评估 =====
+treys>=0.1.8
+
+# ===== Windows 系统交互 =====
+pywin32>=306
+pyautogui>=0.9.54
+
+# ===== 工具库 =====
+colorama>=0.4.6
+psutil>=5.9.0
+requests>=2.31.0
+mysql-connector>=2.2.9
+python-dotenv>=1.0.0
